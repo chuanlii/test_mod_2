@@ -10,6 +10,6 @@ func init() {
 	fmt.Println("testmod2")
 }
 func F2() string {
-	base.Base()
+	base.Base("222")
 	return "f2"
 }
